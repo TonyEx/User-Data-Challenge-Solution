@@ -21,6 +21,11 @@
 		C7DB4D93195A209900E3C3BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DB4D75195A209900E3C3BA /* UIKit.framework */; };
 		C7DB4D9B195A209900E3C3BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7DB4D99195A209900E3C3BA /* InfoPlist.strings */; };
 		C7DB4D9D195A209900E3C3BA /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DB4D9C195A209900E3C3BA /* User_Data_Challenge_SolutionTests.m */; };
+		C7DB4DA8195A210B00E3C3BA /* TEAUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DB4DA7195A210B00E3C3BA /* TEAUserData.m */; };
+		C7DB4DB1195A212D00E3C3BA /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB4DAA195A212D00E3C3BA /* person1.jpeg */; };
+		C7DB4DB2195A212D00E3C3BA /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB4DAB195A212D00E3C3BA /* person2.jpeg */; };
+		C7DB4DB3195A212D00E3C3BA /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB4DAC195A212D00E3C3BA /* person3.jpg */; };
+		C7DB4DB4195A212D00E3C3BA /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7DB4DAD195A212D00E3C3BA /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		C7DB4D98195A209900E3C3BA /* User Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		C7DB4D9A195A209900E3C3BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7DB4D9C195A209900E3C3BA /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		C7DB4DA6195A210B00E3C3BA /* TEAUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEAUserData.h; sourceTree = "<group>"; };
+		C7DB4DA7195A210B00E3C3BA /* TEAUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEAUserData.m; sourceTree = "<group>"; };
+		C7DB4DAA195A212D00E3C3BA /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		C7DB4DAB195A212D00E3C3BA /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		C7DB4DAC195A212D00E3C3BA /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		C7DB4DAD195A212D00E3C3BA /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +129,7 @@
 				C7DB4D86195A209900E3C3BA /* TEAViewController.h */,
 				C7DB4D87195A209900E3C3BA /* TEAViewController.m */,
 				C7DB4D89195A209900E3C3BA /* Images.xcassets */,
+				C7DB4DB6195A216F00E3C3BA /* Models */,
 				C7DB4D78195A209900E3C3BA /* Supporting Files */,
 			);
 			path = "User Data Challenge Solution";
@@ -126,6 +138,7 @@
 		C7DB4D78195A209900E3C3BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C7DB4DA9195A212D00E3C3BA /* person-images */,
 				C7DB4D79195A209900E3C3BA /* User Data Challenge Solution-Info.plist */,
 				C7DB4D7A195A209900E3C3BA /* InfoPlist.strings */,
 				C7DB4D7D195A209900E3C3BA /* main.m */,
@@ -150,6 +163,26 @@
 				C7DB4D99195A209900E3C3BA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7DB4DA9195A212D00E3C3BA /* person-images */ = {
+			isa = PBXGroup;
+			children = (
+				C7DB4DAA195A212D00E3C3BA /* person1.jpeg */,
+				C7DB4DAB195A212D00E3C3BA /* person2.jpeg */,
+				C7DB4DAC195A212D00E3C3BA /* person3.jpg */,
+				C7DB4DAD195A212D00E3C3BA /* person4.jpeg */,
+			);
+			path = "person-images";
+			sourceTree = "<group>";
+		};
+		C7DB4DB6195A216F00E3C3BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7DB4DA6195A210B00E3C3BA /* TEAUserData.h */,
+				C7DB4DA7195A210B00E3C3BA /* TEAUserData.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7DB4DB3195A212D00E3C3BA /* person3.jpg in Resources */,
+				C7DB4DB1195A212D00E3C3BA /* person1.jpeg in Resources */,
 				C7DB4D8A195A209900E3C3BA /* Images.xcassets in Resources */,
 				C7DB4D7C195A209900E3C3BA /* InfoPlist.strings in Resources */,
+				C7DB4DB4195A212D00E3C3BA /* person4.jpeg in Resources */,
 				C7DB4D85195A209900E3C3BA /* Main.storyboard in Resources */,
+				C7DB4DB2195A212D00E3C3BA /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +290,7 @@
 				C7DB4D88195A209900E3C3BA /* TEAViewController.m in Sources */,
 				C7DB4D7E195A209900E3C3BA /* main.m in Sources */,
 				C7DB4D82195A209900E3C3BA /* TEAAppDelegate.m in Sources */,
+				C7DB4DA8195A210B00E3C3BA /* TEAUserData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

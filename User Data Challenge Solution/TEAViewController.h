@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TEAUserData.h"
 
-@interface TEAViewController : UIViewController
+
+@interface TEAViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+@property(nonatomic, strong) NSArray *users;
 
 @end

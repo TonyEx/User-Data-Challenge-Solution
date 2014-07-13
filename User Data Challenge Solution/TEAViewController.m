@@ -25,6 +25,9 @@
     NSLog(@"%@", self.users);
 	
 	self.tableView.delegate = self;
+	
+//	I used an outlate to send updates to generate the data of the tableView, but the solution used this:
+//	self.tableView.dataSource = self;
 }
 
 
